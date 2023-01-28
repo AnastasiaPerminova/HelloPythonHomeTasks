@@ -7,7 +7,9 @@
 number = input('Введите номер билет: ')
 
 if len(number) != 6:
-    print('Номер билета должен быть шестизначным')
+    print('Номер билета должен быть шестизначным.')
+elif number.isdigit() == False:
+    print('Номер билета должен содержать только цифры.')
 else:
     sum1 = int(number[0]) + int(number[1]) + int (number[2])
     sum2 = int(number[3]) + int(number[4]) + int (number[5])
