@@ -12,4 +12,3 @@ else:
         print(st)
         st = 2 ** i
         i += 1
-        

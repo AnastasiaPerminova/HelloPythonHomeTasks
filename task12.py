@@ -19,4 +19,3 @@ else:
             break
     if find == False:
         print('Решение невозможно.')
-
