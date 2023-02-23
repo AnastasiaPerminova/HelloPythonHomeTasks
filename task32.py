@@ -18,5 +18,5 @@ print(list1)
 for i in range(len(list1)):
     if min <= list1[i] <= max:
         list2.append(i)
-        
+
 print(list2)
